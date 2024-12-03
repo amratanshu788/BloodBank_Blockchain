@@ -1,0 +1,7 @@
+const AssetTracker = artifacts.require("AssetTracker");
+AssetTracker.deployed().then(function(instance) {
+  assetTrackerInstance = instance;
+});
+assetTrackerInstance.getLogin(  '0x1D8068E8EcA9AA9219B2f6ee6776B7ae6a362b6c',
+        'bb1@gmail.com',
+       '1234',).then(function(d){console.log("d",d)})
