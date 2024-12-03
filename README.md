@@ -44,4 +44,4 @@ A decentralized and transparent system to manage blood donation, verification, a
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/amratanshu788/Bloodbank_Blockchain.git
+   git clone https://github.com/amratanshu788/BloodBank_Blockchain.git
